@@ -1,0 +1,5 @@
+services:
+  chicken:
+    build: .
+    ports:
+      - "10019:8000"
